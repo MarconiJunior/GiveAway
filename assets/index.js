@@ -8,7 +8,7 @@ function toReset() {
   min = Number.parseInt(min.value)
   let sort = Math.floor(Math.random() * ((max + 1) - min) + min);
   if (min > max) {
-    window.alert("O primeiro número deve ser maior que o segundo!!!")
+    window.alert("O primeiro número deve ser menor que o segundo!!!")
   } else {
     setTimeout(() => {
       resultado.innerHTML = sort
